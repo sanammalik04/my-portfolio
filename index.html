@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanam Malik Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -21,8 +23,8 @@
             <ul class="nav__list">
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                 <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Technical Projects</a></li>
                 
             </ul>
         </nav>
@@ -41,23 +43,97 @@
                     <h2 class="section__title section__title--services">What I do</h2>
                     <div class="services">
                         <div class="service">
-                            <h3></h3>
-                            <p>
+                            <h3>Javascript</h3>
                         </div> <!-- / service -->
                         
                         <div class="service">
-                            <h3></h3>
-                            <p>
+                            <h3>Ruby on Rails</h3>
                         </div> <!-- / service -->
                         
                         <div class="service">
-                            <h3></h3>
-                            <p>
+                            <h3>MySql</h3>
                         </div> <!-- / service -->
+
+                        <div class="service">
+                            <h3>HTML & CSS</h3>
+                        </div> <!-- / service -->
+
+                        <div class="service">
+                            <h3>React</h3>
+                        </div> <!-- / service -->
+
+                        <div class="service">
+                            <h3>Bootstrap</h3>
+                        </div> <!-- / service -->
+
+                        <div class="service">
+                            <h3>Semantic UI</h3>
+                        </div> <!-- / service -->
+
+                        <div class="service">
+                            <h3>API Integration</h3>
+                        </div> <!-- / service -->
+
                     </div><!--- /services -->
                     <a href="#work" class="btn">My Work</a>
                 </section>
 
-    <script src='myPortfolio.js'></script>
+<!------About me------------------------------------->
+<section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about"></p>
+    
+    <div class="about-me__body">
+        <p>Software Developer</p>
+        <p>
+            I am passionate about the transformative power of technology and genuinely interested in the way we can use technology to have a greater positive impact on society. 
+            I am interested in combining my passion and extensive professional experience in social justice with my software development background.
+            I have built projects using Ruby on Rails, Javascript, and React during my time at the Flatiron School for coding. 
+            My hard work and eagerness to learn have been essential in ensuring that my projects were carefully planned and implemented. 
+            I am eager to continue expanding my knowledge in multiple languages and fields in software development.
+        </p>
+    </div>
+    
+    <!-- <img src="img/dev-jane-02.jpg" alt="Jane leaning against a bus"> -->
+ </section>
+ 
+ <!-- My Work -->
+ <section class="my-work" id="work">
+     <h2 class="section__title">My Technical Projects</h2>
+     <p class="section__subtitle"></p>
+     
+     <div class="portfolio">
+         <!-- Portfolio item 01 -->
+         <a href="#" class="portfolio__item">
+             <h3>Craftsy</h3>
+             <p>User driven application to help eliminate waste and encourage creativity by repurposing trash into projects.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IjJ6936uqiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              
+        </a>
+         
+         <!-- Portfolio item 02 -->
+         <a href="#" class="portfolio__item">
+             <h3>Movie Buff</h3>
+             <p>User friendly application for movie buffs to rate, review, upload movies from various genres.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dPhT0Du1MmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </a>
+         
+         <!-- Portfolio item 03 -->
+         <a href="#" class="portfolio__item">
+             <h3>Jokester</h3>
+             <p>Single-page application for joke enthusiasts.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/W_wHvXHWWpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         
+        </a>
+     </div>
+ </section>
+
+ <!------Footer------>
+    <footer>
+        <a href="mailto:sanam.malik04@gmail.com" class="footer__link">sanam.malik04@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/sanam-malik/"></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/sanammalik04"></a></li>
+        </ul>
+    </footer>
+ 
 </body>
 </html>
