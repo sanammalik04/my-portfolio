@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #FAEBD7;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -37,10 +37,11 @@
 
 /* General styles */
 
-
-html {
+/* endable this to add smooth scrolling */
+/* html {
     scroll-behavior: smooth;
-}
+} */
+
 
 body {
     background: var(--clr-light);
@@ -390,12 +391,15 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(minmax(100px, 2fr));
+    
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
-    overflow: hidden;
+    /* background: var(--clr-accent); */
+    /* overflow: hidden; */
+    /* border: 3px solid #fff; */
+    padding: 20px;
 }
 
 .portfolio__img {
@@ -460,3 +464,23 @@ header {
 .social-list__link {
     padding: .5em;
 }
+
+
+/* Individual portfolio item styles */
+
+.portfolio-item-individual {
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.githublinks{
+    color: #FAEBD7;
+}
+
