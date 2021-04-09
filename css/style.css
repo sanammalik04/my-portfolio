@@ -419,6 +419,10 @@ header {
         opacity 250ms linear;
 }
 
+.project {
+    padding-bottom: 30px;
+}
+
 /* .portfolio__item:focus {
     position: relative;
     z-index: 2;
